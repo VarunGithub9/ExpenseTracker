@@ -1,0 +1,29 @@
+/* src/styles.css */
+.app {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-sidebar {
+    width: 300px;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .transaction-history {
+    margin-top: 20px;
+  }
+  
+  .transaction-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-history li {
+    margin-bottom: 5px;
+  }
+  
